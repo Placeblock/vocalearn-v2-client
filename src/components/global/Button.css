@@ -1,0 +1,14 @@
+
+.button {
+    flex-grow: 1;
+    background-image: linear-gradient(to right, var(--primary-light), var(--primary-dark));
+    color: white;
+    box-shadow: 1px 1px 10px var(--primary-light), -1px -1px 10px var(--primary-dark);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}

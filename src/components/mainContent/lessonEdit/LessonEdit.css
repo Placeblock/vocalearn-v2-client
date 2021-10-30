@@ -1,0 +1,128 @@
+#lesson-edit-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.788);
+    z-index: 9;
+}
+
+#lesson-edit {
+    width: 40%;
+    max-width: 95%;
+    height: 90%;
+    color: var(--text-color-light);
+    background-color: var(--background-body);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 840px) {
+    #lesson-edit {
+        width: 95%;
+    }
+}
+
+#lesson-edit-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#lesson-edit-info-name {
+    flex-grow: 2;
+    display: flex;
+}
+
+
+#lesson-edit-info input {
+    border-bottom: 2px solid var(--primary-light);
+}
+
+#lesson-edit-buttons button {
+    padding: 10px;
+    font-size: 15px;
+    margin: 0px !important;
+    margin-left: 10px !important;
+}
+
+#lesson-edit-buttons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#lesson-edit-buttons button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#lesson-edit-list {
+    position: relative;
+    overflow-y: auto;
+    flex-grow: 2;
+    padding: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+}
+
+#lesson-edit-headings {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#lesson-edit-headings tbody {
+    width: 100%;
+}
+#lesson-edit-headings th {
+    width: 32%;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.lesson-edit-vocable {
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 13px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    background-color: var(--background-item);
+}
+
+.lesson-edit-vocable .input-container {
+    display: flex;
+}
+
+.lesson-edit-vocable input{
+    background-color: transparent;
+    color: var(--text-color-light);
+    margin-right: 7px;
+    margin-left: 7px;
+    border-bottom: 2px solid var(--primary-dark);
+    text-align: center;
+}
+
+.lesson-edit-vocable p {
+    font-size: 17px;
+}
+
+.lesson-edit-vocable button {
+    transition: opacity 0.3s ease-in-out;
+}

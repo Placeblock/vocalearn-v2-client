@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920px"
+   height="1080px"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="background-2.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39386"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="641.62351"
+     inkscape:cy="541.97256"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs39381" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0520ff;fill-opacity:0.521236;stroke:none;stroke-width:0.729449;paint-order:fill markers stroke"
+       id="rect39436"
+       width="176.15715"
+       height="741.91736"
+       x="507.33646"
+       y="-534.90515"
+       transform="rotate(26.377198)" />
+    <rect
+       style="fill:#0520ff;fill-opacity:0.521236;stroke:none;stroke-width:0.729449;paint-order:fill markers stroke"
+       id="rect39436-5"
+       width="176.15715"
+       height="741.91736"
+       x="353.06561"
+       y="-749.03784"
+       transform="rotate(116.3772)" />
+    <rect
+       style="fill:#0520ff;fill-opacity:0.521236;stroke:none;stroke-width:0.729449;paint-order:fill markers stroke"
+       id="rect39436-5-3"
+       width="176.15715"
+       height="741.91736"
+       x="-393.45108"
+       y="-2292.0139"
+       transform="rotate(116.3772)" />
+    <rect
+       style="fill:#0520ff;fill-opacity:0.521236;stroke:none;stroke-width:0.729449;paint-order:fill markers stroke"
+       id="rect39436-3"
+       width="176.15715"
+       height="741.91736"
+       x="1494.9386"
+       y="-0.6188882"
+       transform="rotate(26.377198)" />
+  </g>
+</svg>

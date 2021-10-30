@@ -1,0 +1,63 @@
+#form-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#auth-form {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#form-content {
+    transition: opacity 0.2s ease-in-out;
+}
+
+#auth-form input {
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    padding-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--primary-dark);
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#auth-form label {
+    font-size: 18px;
+}
+
+#auth-form button {
+    margin: 0 !important;
+    margin-top: 20px !important;
+    width: 200px;
+}
+
+#form-error {
+    color: #db0000;
+    font-size: 15px;
+}
+
+#form-register {
+    font-size: 15px;
+}
+
+#form-register-click {
+    color: var(--primary-light);
+}
+
+#form-register-click:hover {
+    cursor: pointer;
+}

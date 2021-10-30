@@ -1,0 +1,8 @@
+select {
+    padding: 5px;
+    border-radius: 10px !important;
+    border: none;
+    background-color: var(--background-item) !important;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+
+
+.add-input {
+    margin: 5px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--background-item);
+    color: var(--text-color-light);
+    box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out, width 0.1s ease-in-out;
+    height: 47px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color-light);
+    font-size: 20px;
+    width: 100%;
+    padding: 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.add-input-collapsed-icon {
+    color: var(--primary-light);
+    font-size: 22px;
+}

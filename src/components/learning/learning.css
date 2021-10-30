@@ -1,0 +1,96 @@
+#learning-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    color: var(--text-color-light);    
+    background: url("../../background-3.svg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--background-body);
+}
+
+#learning-card {
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    background-color: var(--background-body);
+    box-sizing: border-box;
+    perspective: 1000px;
+}
+
+#learning-card-inner {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#learning-card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+#learning-card.turned #learning-card-inner {
+    transform: rotateY(180deg);
+}
+
+#learning-card-front, #learning-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#learning-card-back {
+    transform: rotateY(180deg);
+}
+
+#learning-info {
+    position: fixed;
+    width: 70%;
+    max-width: 400px;
+    top: 50px;
+    left: 50%;
+    background-color: var(--background-body);
+    padding: 14px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#learning-info p {
+    flex-grow: 3;
+}
+
+#learning-card-hint {
+    font-size: 15px;
+}
+
+#learning-card-back-text {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 840px) {
+    #learning-card {
+        width: 90%;
+        max-width: 400px;
+    }
+}

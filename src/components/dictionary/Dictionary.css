@@ -1,0 +1,69 @@
+#dictionary{
+    position: fixed;
+    box-sizing: border-box;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+    height: 600px;
+    max-width: 94vw;
+    max-height: 90vh;
+    opacity: 0.9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#dictionary-searchbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+#dictionary-input {
+    flex-grow: 2;
+}
+
+#dictionary-content {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.dictionary-content-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.dictionary-content-item p:nth-child(2) {
+    text-align: end;
+}
+
+.dictionary-content-item p {
+    width: 50%;
+}
+
+#dictionary-settings {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#dictionary-settings input {
+    margin-right: 6px;
+    width: 15px;
+}
+
+#dictionary-search-icon {
+    color: var(--primary-light);
+}
